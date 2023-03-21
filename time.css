@@ -1,0 +1,131 @@
+.main {
+    margin-top: 50px;
+    background-image: linear-gradient(90deg, #ff4b1f, #1fddff);
+    background-size: auto;
+    text-align: center;
+    padding: 7%;
+}
+
+.palate{
+    border: 5px solid rgb(255, 253, 253);
+    height: 230px;
+    width: 580px;
+    font-size: 150px; 
+    color: white;
+    border-radius: 20px;
+    
+
+}
+
+#day {
+    border: 5px solid rgb(248, 248, 248);
+    height: 60px;
+    width: 560px;
+    margin-top: 50px;
+    font-size: 40px; 
+    color: white;
+    border-radius: 20px;
+}
+
+#but {
+    position: absolute;
+    left: 30%;
+    margin-top: 20px;
+
+}
+
+
+#third{
+    border-radius: 20px;
+    border: 5px solid white; 
+    background-image: linear-gradient(90deg,#1fddff, #ff4b1f);
+    padding: 0%; 
+    margin-top: 1%;
+
+}
+
+.form{
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding:10px; 
+    
+    
+    font-weight: 600;
+}
+
+#submit{
+    margin-left: 25px;
+width: 150px;
+font-size:20px ;
+}
+ 
+#maxCount{
+    width: 350px; 
+    font-size: 20px;
+    
+} 
+
+#footer{
+    background-image: linear-gradient(90deg, #ff4b1f, #1fddff);
+margin-top: 40px; 
+border: 3px solid black;
+
+}
+#logo{
+    height: 150px;
+    width: 150px; 
+    
+}
+#class{
+    text-align: center; 
+
+} 
+.fa{
+    padding: 20px; 
+    /* border: 4px solid white; 
+    margin: 20px; 
+    border-radius: 20px; */
+} 
+
+@media (max-width:778px) {
+    #time {
+        border: 5px solid rgb(252, 248, 248);
+        height: 6rem;
+        width: 20rem;
+        font-size: 3.5rem;
+
+    }
+
+    #day {
+        border: 5px solid rgb(250, 246, 246);
+        height: 60px;
+        width: 20rem;
+        margin-top: 50px;
+        font-size: 2rem;
+    }
+
+    #but {
+        left: 10%;
+        margin-top: 37px;
+    } 
+
+    #third{
+        height: 6rem;
+        width: 20rem;
+        font-size: 3.5rem;
+    }  
+    
+    #maxCount{
+        width: 200px;  
+        margin-bottom: 30px;
+       
+        
+    }  
+
+    #submit{
+        width: 100px;
+    } 
+    #but{
+        margin-left: 31px;
+    }
+}
